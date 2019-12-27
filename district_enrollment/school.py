@@ -37,8 +37,7 @@ plt.yticks(np.arange(0, max(enrollment), tickfq)) #change tick frequency
 # LABELS
 plt.xlabel('DISTRICTS')
 plt.ylabel('NUMBER OF STUDENTS')
-plt.title('STUDENT ENROLLMENT/ATTENDANCE BY DISTRICT IN NYC')
-
+plt.title('STUDENT ENROLLMENT/ATTENDANCE BY DISTRICT IN NYC\n2010 - 2011')
 # PLOTS (not including last 3 special columns)
 plt.bar(districts[0:-2], enrollment[0:-2], color = 'white', edgecolor='#333F4B', width=width, label='Enrollment')
 plt.bar(districts[0:-2], attendance[0:-2], color = 'green', edgecolor='black', alpha = 0.5, width=0.5 * width, label='Attendance')
@@ -46,4 +45,4 @@ plt.legend()
 
 #SAVE OUTPUT
 #plt.show()
-plt.savefig('forest_graph3.png')
+plt.savefig('forest_graph.png')
