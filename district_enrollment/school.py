@@ -21,7 +21,6 @@ plt.rcParams['axes.linewidth']=0.8
 plt.rcParams['xtick.color']='#333F4B'
 plt.rcParams['ytick.color']='#333F4B'
 
-
 #INITIALIZE (MATLAB STYLE)
 plt.figure(figsize=(15,7.5))
 
