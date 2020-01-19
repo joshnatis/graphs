@@ -178,7 +178,7 @@ for day, month in months_first_days.items():
 	left_adjustment = 13
 	xlabels[day + left_adjustment] = month
 	#vertical bars denoting range of each month
-	plt.bar(day + left_adjustment, MAX_MINUTES_VALUE, width = 31, alpha=0.5)
+	plt.bar(day + left_adjustment, MAX_MINUTES_VALUE, width = 31, alpha=0.3)
 
 plt.gca().set_xticklabels(xlabels)
 
